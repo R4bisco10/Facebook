@@ -1,0 +1,394 @@
+body{
+    height: 200vh;
+    font-family: 'inherit', sans-serif;
+    margin:0;
+}
+.container2{
+    display: flex;
+    background:white;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding-left:20%;
+    padding-right:20%;
+    font-family: 'inherit', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 269px;
+    display: flex;
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+.linha37{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:85%;
+    gap:2%
+}
+.linha2{
+    border: none;
+    border-top: 3px solid blue;
+    margin:0;
+}
+.linha3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.linhazinha{
+    margin:0;
+    margin-top:2px;
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+.hr{
+    margin:0;
+}
+.logo{
+    width:168px;
+    height:168px;
+    border-radius:50%;
+    padding: 20px;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top:65px;
+}
+.titulo{
+    margin:0px
+}
+.seguidores{
+    display: flex;
+    flex-direction: row;
+}
+.item1{
+    margin:10px;
+    color:rgb(153, 153, 153);
+    margin-top:0;
+}
+.item2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.item2:hover{
+    background: rgb(235, 236, 255);
+    border-radius:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.item3{
+    color:blue;
+    margin:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;;
+    margin-top:23px;
+}
+.butao{
+    border: none; /* Remove a borda padrão */
+    width:50px;
+    height:35px;
+    border-radius:5px;
+}
+.butao:hover{
+    background: rgb(157, 157, 157);
+}
+.esquerda{
+    display:flex;
+    justify-content: right;
+    width: 15%;
+}
+.container3{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top:15px;
+    gap: 15px;
+    background-color:#e5e9ef;
+    margin: 0%;
+    font-family: 'inherit', sans-serif;
+    color:rgb(50, 50, 50);
+}
+.divesquerda{
+    width: 45%;
+    height: 41%;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    background:white;
+}
+.centro{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.centro1{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(0, 127, 246);
+    padding:0%;
+    width:78%;
+}
+.centro1:hover{
+    border-bottom:1px solid rgb(0, 127, 246);
+}
+.centro2{
+    display: flex;
+    color: rgb(0, 127, 246);
+    padding:0%;
+    width:40%;
+    margin-left:28%;
+}
+.centro2:hover{
+    border-bottom:1px solid rgb(0, 127, 246);
+}
+.lado1{
+    margin-left:17%;
+}
+.lado2{
+    margin-left:5%;
+}
+.pegapega{
+    display:flex;
+    flex-direction:column;
+    width:80%;
+    height:85%;
+    gap:15px;
+}
+.divdireita{
+    height: 80%;
+    border-radius: 5px;
+    background:white;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.pi{
+    margin:10px;
+}
+.logo3{
+    width:43px;
+    height:43px;
+    border-radius: 50%;
+}
+.ladinho{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    gap:5px;
+}
+.colunona{
+    display:flex;
+    flex-direction:row;
+    gap:8px;
+    margin:8px;
+}
+.ladinho2{
+    display:flex;
+    flex-direction:row;
+    align-items:top;
+    justify-content: center;
+    gap:5px;
+}
+.div22{
+    border-radius: 5px;
+    background:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row;
+    padding:10px;
+    gap:10px;
+}
+.item33{
+    display:flex;
+    justify-content: left;
+    margin:0;
+}
+.item34{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width:80px;
+    height:40px;
+    border-radius:5px;
+    background:#e5e9ef;
+}
+.item34:hover{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width:80px;
+    height:40px;
+    border-radius:5px;
+    background:#c5c9ce;
+}
+.reverso{
+    padding:0;
+    gap:5px;
+    margin:0;
+}
+.reverso1{
+    display:flex;
+    flex-direction:row;
+    gap:2px;
+}
+.reverso2{
+    display:flex;
+    flex-direction:row;
+    gap:2px;
+}
+.image{
+    margin:0;
+    width:33.08%;
+}
+.image1{
+    margin:0;
+    margin-bottom:2px;
+    width:49.8%;
+}
+.pega2{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    width:70%;
+}
+.coluninha{
+    display:flex;
+    flex-direction:column;
+    margin-top:0px;
+    align-items: top;
+    justify-content: left;
+    margin:0px;
+}
+.semborda{
+    color:rgb(151, 151, 151);
+    font-size: small;
+}
+.semborda:hover{
+    border-bottom: 1px solid rgb(151, 151, 151);
+}
+.semborda2{
+    color:rgb(0, 0, 0);
+}
+.semborda2:hover{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.letra{
+    color:rgb(162, 162, 162);
+}
+.margin0{
+    margin:0px;
+}
+.joinha{
+    width:20px;
+    height:20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.arroba{
+    color: rgb(0, 127, 246);
+}
+.arroba:hover{
+    color: rgb(0, 127, 246);
+    border-bottom: 1px solid rgb(0, 127, 246);
+}
+.divisoria{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.alinhado{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    gap:10px;
+}
+.img{
+    width:20px;
+    height:20px;
+}
+.comentario{
+    margin:8px;
+    padding:0px;
+}
+.interacoes{
+    display:flex;
+    flex-direction:row;
+    justify-content: left;
+    align-items: center;
+    margin:0;
+}
+.image2{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    border:1px solid black;
+}
+z{
+    margin-left:4px;
+}
+.ladinho33{
+    display:flex;
+    flex-direction:row;
+}
+.botoesint{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.parteint{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.image4{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+.fotoperfil{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+.comentar{
+    border-radius: 10px;
+    background:#e5e9ef;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    width:100%;
+    margin-left:5px;
+    gap:10px;
+    padding-right: 5px;
+}
+.image3{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+}
+.ladinho59{
+    background:white;
+    border-radius: 5px;
+    padding:10px;
+}
